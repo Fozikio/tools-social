@@ -1,6 +1,6 @@
 {
   "name": "@fozikio/tools-social",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Social cognition tools plugin for cortex-engine",
   "type": "module",
   "main": "dist/index.js",
@@ -24,5 +24,15 @@
     "social",
     "mcp"
   ],
-  "license": "MIT"
+  "license": "MIT",
+  "author": "Fozikio <hello@fozikio.com>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Fozikio/tools-social.git"
+  },
+  "homepage": "https://github.com/Fozikio/tools-social#readme",
+  "funding": {
+    "type": "github",
+    "url": "https://github.com/sponsors/Fozikio"
+  }
 }
