@@ -1,6 +1,6 @@
 {
   "name": "@fozikio/tools-social",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "Social cognition for AI agents — interaction patterns, engagement tracking, relationship memory. Plugin for cortex-engine.",
   "type": "module",
   "main": "dist/index.js",
