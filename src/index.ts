@@ -5,7 +5,7 @@
  * Uses the generic CortexStore API (put/get/update/query) on the 'social_signals' collection.
  */
 
-import type { ToolPlugin } from 'cortex-engine';
+import type { ToolPlugin } from '@fozikio/cortex-engine';
 import { socialReadTool } from './tools/social-read.js';
 import { socialUpdateTool } from './tools/social-update.js';
 

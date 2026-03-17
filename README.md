@@ -25,7 +25,7 @@ plugins:
 
 ```typescript
 import socialPlugin from "@fozikio/tools-social";
-import { CortexEngine } from "cortex-engine";
+import { CortexEngine } from "@fozikio/cortex-engine";
 
 const engine = new CortexEngine({
   plugins: [socialPlugin],

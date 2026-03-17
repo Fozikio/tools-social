@@ -5,7 +5,7 @@
  * Discord, Reddit, and other interaction sources.
  */
 
-import type { ToolDefinition, ToolContext } from 'cortex-engine';
+import type { ToolDefinition, ToolContext } from '@fozikio/cortex-engine';
 
 const COLLECTION = 'social_signals';
 const SIGNALS_DOC_ID = 'current';
