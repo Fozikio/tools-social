@@ -74,6 +74,8 @@ export const socialScoreTool: ToolDefinition = {
   name: 'social_score',
   description:
     'Score a social media signal for engagement potential. 5-factor scoring: engagement level, topic relevance, author influence, recency, and novelty (whether we have interacted with this author before). Returns 0-100 score with breakdown.',
+  category: 'social',
+  whenToUse: 'When scoring a social media signal for engagement potential before drafting a reply',
   inputSchema: {
     type: 'object',
     properties: {

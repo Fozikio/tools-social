@@ -16,6 +16,8 @@ export const socialUpdateTool: ToolDefinition = {
   name: 'social_update',
   description:
     'Log a social signal observation or update pattern notes. Call when you notice something about an interaction — energy, mode, engagement. Source required (interactive/discord/reddit/cron).',
+  category: 'social',
+  whenToUse: 'When logging a social signal observation or updating interaction pattern notes',
   inputSchema: {
     type: 'object',
     properties: {

@@ -14,6 +14,8 @@ export const socialReadTool: ToolDefinition = {
   name: 'social_read',
   description:
     'Read current social cognition model — inferred interaction patterns from sessions, Discord, Reddit. Part of an ongoing experiment in social pattern recognition.',
+  category: 'social',
+  whenToUse: 'When reading the current social cognition model and interaction patterns',
   inputSchema: {
     type: 'object',
     properties: {
